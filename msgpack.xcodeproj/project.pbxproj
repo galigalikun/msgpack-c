@@ -1,0 +1,1525 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              40E4D7BB6F324C3E8B02E86E /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AA4C056F869C4289B4CD366A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            012DE0253E864072AB1E0CF4 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            1AF4B9CFF2BA4210A97B74AF /* PBXTargetDependency */,
+                            A5BF752F3BF843B39BDB0AD1 /* PBXTargetDependency */,
+                            07B6D124FB7A4AE59B0E8758 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              22ECBFC9155E4EA181DC10D4 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2257F2E2D6D944F2980BA41F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            C03E8FABAB4B4F79AB68056A /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              739AF8A72C814B2B84B5E4EF /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 166C016EE90F4AA2BE10A991 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            2940CCB3B8DA40FDA3B58DBF /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            2ECAF07ECBE94A918E26B7D8 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+527934A4171E41398BBA933A /* /Users/aka/msgpack-c/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+DFCB2F5D1EF643D093018C02 /* /Users/aka/msgpack-c/include/msgpack.hpp */ = {isa = PBXBuildFile; fileRef = 25A1512301FE40C3966D8127 /* /Users/aka/msgpack-c/include/msgpack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+B08E56F2D7D74C6FA29CB274 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */ = {isa = PBXBuildFile; fileRef = 37789FA40BAC406EBAA2746A /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D1E6EB695BE246B3B8E94E06 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 751DE0FBB063447089B47E80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A4F00E9FB90B479692FAEAF5 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */ = {isa = PBXBuildFile; fileRef = BEE6DF4014ED4DCBB3A0A431 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+86365B4AFAB14963AD35FC09 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */ = {isa = PBXBuildFile; fileRef = C5517848EBF041E0B1112186 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F6DB2DDB84034534A76815CF /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */ = {isa = PBXBuildFile; fileRef = 238B59F6FD974D1588B5A865 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+9B765562B88F48669327B4BC /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */ = {isa = PBXBuildFile; fileRef = E7E195D1909946E9B24D8866 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+7B99F50F6CCD463E90069B74 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */ = {isa = PBXBuildFile; fileRef = D60A8D6678704516B01E28D9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+864652FB2374488594F3A590 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 87A4FA776BF446978822C5FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4BA2A7954120427BB79BA402 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */ = {isa = PBXBuildFile; fileRef = 25A0096C3183451F85BE3A90 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+32B1AD4B523A4D759C8FECE1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 1AE76295DCC646C1BFF24E65 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3B6D36F223904703985295A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */ = {isa = PBXBuildFile; fileRef = 19FDB8730A4B40108AD05CD1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E16B76323C9641E38DBCF2C3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 24B0EDD631F44CA584395D42 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+337AF58E505E423B86B29AC1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */ = {isa = PBXBuildFile; fileRef = 6C9AC8D7E87840B4BD37B035 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+09477BEB84EB408B8B7B4DED /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 5EDDEE5608CA42589EB45A2D /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C7B35C2D98E448479752501C /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */ = {isa = PBXBuildFile; fileRef = AB8870348FF54D86912C743A /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+9FBC96C89D754DFCA5AAA78E /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 7FBD084C0CCE4936876AA453 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+410620446CDF4EB9A2654087 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */ = {isa = PBXBuildFile; fileRef = 36FF707FC5EE475AA640BF23 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6A23D35116BC450DB4CABA56 /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */ = {isa = PBXBuildFile; fileRef = D0F3534EC1844B978AEB84FB /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+7AB1A0B7553B4FA481BBF1F9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 5EFBB0E238A543038CBC967A /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E59BDD63761B4CCF923CC0C2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */ = {isa = PBXBuildFile; fileRef = ED25CFDF39594DD881C384B7 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+580E24D96BDD46159A41F044 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */ = {isa = PBXBuildFile; fileRef = 9A54CD5784894608993EFAB3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+EBBB88B450F2479F972838A5 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 2487BC1D8C644EE6BD024B3A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+29D08F9B7D51443EAAFC7C39 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */ = {isa = PBXBuildFile; fileRef = 3018366F900140DB8158F3AF /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+B3A467B0583C4AD69120ACB9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */ = {isa = PBXBuildFile; fileRef = E1DB6E5D4C4147C99AAF1FB4 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4FD444AC362E44AB9438FE16 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 9C72C72EF69D479C832DF16A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1721A8EEE3C546D2A5482DBD /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */ = {isa = PBXBuildFile; fileRef = 558F6D439E6C41CB99D692FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F2219F7446ED4C0D8DC70C01 /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 23199F44E7CD496D8CD40B1A /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+BCA9911DB6404EC8873DF32D /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */ = {isa = PBXBuildFile; fileRef = 9C12FD71581B400F978F45BD /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+FEC378A42B3A447FBF9E17F5 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 18C1A089011B410F9114C424 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2D6706A816DC4661A1BF217A /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */ = {isa = PBXBuildFile; fileRef = 44A9D07F6F0947D6A08BB59E /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+26932E71019E4875A4D5E9DE /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 4374A6754E144244861442FC /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+FC99DCA439E446C2A7627B7D /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */ = {isa = PBXBuildFile; fileRef = C8C27605172F42DDBD09242B /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D54B3EBFA005447EA607C0E9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */ = {isa = PBXBuildFile; fileRef = C0531FE0FBBC40DDBDDB2D4A /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C63DB2A9A0EF45C68F2CAC91 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */ = {isa = PBXBuildFile; fileRef = 95A0C472B7044C7C9C3B9411 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5BB44209D95C4CDF80CFA250 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */ = {isa = PBXBuildFile; fileRef = BE4FB33B7B984524BC6340A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+12A5E5DDC4E5455090BB8D93 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */ = {isa = PBXBuildFile; fileRef = 5F76ED2B8F534139B60AEA98 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+262ADDEAC8DD4333A3FB41AE /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 62236855A8A645E8B9B35325 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+702F0F85FA884708B2F8A470 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */ = {isa = PBXBuildFile; fileRef = 423EA54AD1F8477EBACBAADF /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D9E2876514414AE6B89EE156 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */ = {isa = PBXBuildFile; fileRef = BE0EE46952214797B1649EE2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E58EE7C411534C4AB1C32C43 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */ = {isa = PBXBuildFile; fileRef = FB4BADBE0C8741549A4B82B6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D9C8583333264C62BDFB336B /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */ = {isa = PBXBuildFile; fileRef = F923A5C68B84492EAFF8A6DC /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+68AFF0DA8D0340A88B0C22D2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */ = {isa = PBXBuildFile; fileRef = 4728A7B009DC417894B80616 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+FCE89F0477C0448DA1B1E30E /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */ = {isa = PBXBuildFile; fileRef = BAA40288018C45768D9EF382 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+015461BCF4C54894A1BD4584 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */ = {isa = PBXBuildFile; fileRef = CC0625F72B2F41998F73BBE8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+9B8209E50FFE482F9F5D7A6D /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 55D6ED2242E740D996AAA721 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+BEA347B601E5486BB391021A /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */ = {isa = PBXBuildFile; fileRef = 5874E910BC754735B6C9952E /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3D3A3D053D0C49E69CFBE478 /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 53708448D6E94C91AF48907B /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F7EF2E7BF4E943D0A506956D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */ = {isa = PBXBuildFile; fileRef = 27796714C32743BF928AC867 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+02EA561D02F44952B2F3967F /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */ = {isa = PBXBuildFile; fileRef = DAE39071E4384DF4B3FD5142 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+03101B9EB1F04B94854AF8F9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */ = {isa = PBXBuildFile; fileRef = C2332A0181904A26BEAFF48D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DEDA9590E3FD406D9F99D25D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 5E699BB2BE414B1EA00C632C /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5711E6884C2145E7A8F3EC97 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */ = {isa = PBXBuildFile; fileRef = 232AB2B2937C4280820682A8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3AA74EB597E346F8A26ADBB8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */ = {isa = PBXBuildFile; fileRef = 186C7B09EF7245EBA5E39240 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+421E381575AD460093287123 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */ = {isa = PBXBuildFile; fileRef = C3354F12578244159CB7BC8E /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+9510CE26201F4803B2A356DE /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 847683D24C374422ABF2DE12 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+05B67090AF47424597FC38ED /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */ = {isa = PBXBuildFile; fileRef = 26079F061908420E9FECA5D3 /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+AA254D74CA024A3092FE0DA5 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */ = {isa = PBXBuildFile; fileRef = CEDFBB95697644C182350335 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E46B50628B43436583C911E1 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */ = {isa = PBXBuildFile; fileRef = E35AE78EF5C749A4A0E0818A /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+85CBF4A19D5E427D8762BB6A /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */ = {isa = PBXBuildFile; fileRef = E01876EDFC7043388900B591 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+96E95FBB3900460E86D63112 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */ = {isa = PBXBuildFile; fileRef = 1E9B23F2305A4E5E8E17CACD /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+458C8FB7014C45F5A42B52D0 /* /Users/aka/msgpack-c/include/msgpack/object.h */ = {isa = PBXBuildFile; fileRef = B9039B7F7CB54C10B3E2DB36 /* /Users/aka/msgpack-c/include/msgpack/object.h */; settings = { COMPILER_FLAGS = ""; }; };
+1E7955D9CECE42EDB72636F2 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */ = {isa = PBXBuildFile; fileRef = 480DA7D087EB4AC0ABA77BF6 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+66CAC6B05EBB425395B9540A /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 26D48E48F9DA40F7A3A7E464 /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+423C11A0B8E5496E8860C299 /* /Users/aka/msgpack-c/include/msgpack/pack.h */ = {isa = PBXBuildFile; fileRef = 947DBB290F4E4A0BB86FC49C /* /Users/aka/msgpack-c/include/msgpack/pack.h */; settings = { COMPILER_FLAGS = ""; }; };
+E0B46E7021DD4D1C832F7527 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */ = {isa = PBXBuildFile; fileRef = 423B564B96DC4E6FBAC7A433 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+118EF695332C4D25A4D3A850 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */ = {isa = PBXBuildFile; fileRef = 824EB4AE31AE4902880F3253 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */; settings = { COMPILER_FLAGS = ""; }; };
+CE3E226BB8AA495DBA306FC0 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */ = {isa = PBXBuildFile; fileRef = 29F81FD52DBA4ADF9257FEC6 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */; settings = { COMPILER_FLAGS = ""; }; };
+29D431A59ACF4A7EBF5FE294 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */ = {isa = PBXBuildFile; fileRef = 4BDF5AF9D81A498085D0A556 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+1F441239C0AB4658A1035FB9 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */ = {isa = PBXBuildFile; fileRef = 07C6151A971741F28D8A1E43 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+B39023D8B4B1436FBF494CCF /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */ = {isa = PBXBuildFile; fileRef = 8EBD5CA0D82D47A192F438C1 /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */; settings = { COMPILER_FLAGS = ""; }; };
+D17B505D49114E73B378972F /* /Users/aka/msgpack-c/include/msgpack/type.hpp */ = {isa = PBXBuildFile; fileRef = ED62A837CD114A179C53498B /* /Users/aka/msgpack-c/include/msgpack/type.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D7475C779B824555A4CEFB96 /* /Users/aka/msgpack-c/include/msgpack/unpack.h */ = {isa = PBXBuildFile; fileRef = 23A3C20DB88C402189F1B4CE /* /Users/aka/msgpack-c/include/msgpack/unpack.h */; settings = { COMPILER_FLAGS = ""; }; };
+5B10D470FAB548F6A9BB14F9 /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */ = {isa = PBXBuildFile; fileRef = EC4FE1DB4422499B8D461BA4 /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F7A4F7DB67BB4F7784CEA331 /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */ = {isa = PBXBuildFile; fileRef = 513E33CBAF064B7D911D9AEF /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */; settings = { COMPILER_FLAGS = ""; }; };
+0C07D32978E54AA0BA4AB137 /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */ = {isa = PBXBuildFile; fileRef = 165A770113754E8C8D639B1A /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */; settings = { COMPILER_FLAGS = ""; }; };
+926283DDBD1A45D791C2B796 /* /Users/aka/msgpack-c/include/msgpack/util.h */ = {isa = PBXBuildFile; fileRef = 16605F15F2DF45CCB98FAB0B /* /Users/aka/msgpack-c/include/msgpack/util.h */; settings = { COMPILER_FLAGS = ""; }; };
+79B5147B0A454D41A058BD45 /* /Users/aka/msgpack-c/include/msgpack/version.h */ = {isa = PBXBuildFile; fileRef = C240DCF1E9A042FC898769E3 /* /Users/aka/msgpack-c/include/msgpack/version.h */; settings = { COMPILER_FLAGS = ""; }; };
+B5CA8C14740344CD996700BC /* /Users/aka/msgpack-c/include/msgpack/version.hpp */ = {isa = PBXBuildFile; fileRef = 2B6247CC6FEE4AEBB0254EE6 /* /Users/aka/msgpack-c/include/msgpack/version.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+22AA46ABE7014BBA84A1554F /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */ = {isa = PBXBuildFile; fileRef = 8F0D62B8C64A47F1AB3DD5F9 /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+90B5C18F22CC4E209EFA1DFB /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */ = {isa = PBXBuildFile; fileRef = D9FBA247FE7143F3A3C6D587 /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+B3F4152EC5D644BDB1046294 /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */ = {isa = PBXBuildFile; fileRef = A3B2D3F4B5B8452CB013971A /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D24B89DD9A9B47E68E065B7A /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */ = {isa = PBXBuildFile; fileRef = 812B230947A6438EB8308D03 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+449D6955FEF04D59ABD76EFB /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */ = {isa = PBXBuildFile; fileRef = 746A380F0D2F4B3AA4AE8356 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+CE3158B6179A42ACBCF3B993 /* /Users/aka/msgpack-c/include/msgpack/zone.h */ = {isa = PBXBuildFile; fileRef = 4E91F29E58F34CE1B707BE9B /* /Users/aka/msgpack-c/include/msgpack/zone.h */; settings = { COMPILER_FLAGS = ""; }; };
+AF29C24D269047D9B441729E /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */ = {isa = PBXBuildFile; fileRef = A217EA546DB5401E87807AD1 /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+928886CC7C504C98A289F587 /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 0B79B0E9D8D142BD873D3BFA /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D800F5D833D6438DAB16ACFD /* /Users/aka/msgpack-c/src/objectc.c */ = {isa = PBXBuildFile; fileRef = 3FC951B51E2D402FB33B0369 /* /Users/aka/msgpack-c/src/objectc.c */; settings = { COMPILER_FLAGS = ""; }; };
+D88C0756D3234548ABEFCD3F /* /Users/aka/msgpack-c/src/unpack.c */ = {isa = PBXBuildFile; fileRef = 4E085E90409D4336847589A3 /* /Users/aka/msgpack-c/src/unpack.c */; settings = { COMPILER_FLAGS = ""; }; };
+28D36C134F1E4BCA88E4B7D5 /* /Users/aka/msgpack-c/src/version.c */ = {isa = PBXBuildFile; fileRef = E5D15DFAE6594311A818CCA3 /* /Users/aka/msgpack-c/src/version.c */; settings = { COMPILER_FLAGS = ""; }; };
+E430BC29DD63449DAD969372 /* /Users/aka/msgpack-c/src/vrefbuffer.c */ = {isa = PBXBuildFile; fileRef = EEEAF773484B4FF987825AF9 /* /Users/aka/msgpack-c/src/vrefbuffer.c */; settings = { COMPILER_FLAGS = ""; }; };
+D700214C98C24CA2BC763EC7 /* /Users/aka/msgpack-c/src/zone.c */ = {isa = PBXBuildFile; fileRef = 265CC7A7A6784C71ADC08711 /* /Users/aka/msgpack-c/src/zone.c */; settings = { COMPILER_FLAGS = ""; }; };
+07552641AAD84858A177F082 /* /Users/aka/msgpack-c/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+CE87505A704C46AA8DE0EBC9 /* /Users/aka/msgpack-c/include/msgpack.hpp */ = {isa = PBXBuildFile; fileRef = 25A1512301FE40C3966D8127 /* /Users/aka/msgpack-c/include/msgpack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D7B545A168964DC2ACEDF8CD /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */ = {isa = PBXBuildFile; fileRef = 37789FA40BAC406EBAA2746A /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+23A015786F474CEEAC54ADF8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 751DE0FBB063447089B47E80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+10DDDAB4ECC34CB6B7565F70 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */ = {isa = PBXBuildFile; fileRef = BEE6DF4014ED4DCBB3A0A431 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+096F423C9E194563ADA9EA3B /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */ = {isa = PBXBuildFile; fileRef = C5517848EBF041E0B1112186 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+65920CC1803241078F730401 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */ = {isa = PBXBuildFile; fileRef = 238B59F6FD974D1588B5A865 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+448D050BAD5A44F0822DE2DE /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */ = {isa = PBXBuildFile; fileRef = E7E195D1909946E9B24D8866 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+57ED31BE1FF842A68A53B246 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */ = {isa = PBXBuildFile; fileRef = D60A8D6678704516B01E28D9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+58D7516951514DC5B16F20B7 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 87A4FA776BF446978822C5FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+965F2845C7854277BE3E2B19 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */ = {isa = PBXBuildFile; fileRef = 25A0096C3183451F85BE3A90 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+0E78C6FEFE3D49BCABD9E864 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 1AE76295DCC646C1BFF24E65 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F706CACDEB1348FA95255E9A /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */ = {isa = PBXBuildFile; fileRef = 19FDB8730A4B40108AD05CD1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C49EC8C61CDD42A4B3EE5D80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 24B0EDD631F44CA584395D42 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+329E7D9E2F8641178C7AEAAE /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */ = {isa = PBXBuildFile; fileRef = 6C9AC8D7E87840B4BD37B035 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A5E74F34E14942D9A4796065 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 5EDDEE5608CA42589EB45A2D /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1E0545886A6944488EEC21AB /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */ = {isa = PBXBuildFile; fileRef = AB8870348FF54D86912C743A /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4D2292EC54684253984D3265 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 7FBD084C0CCE4936876AA453 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+893E061B3EFE4792AA7FF0C1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */ = {isa = PBXBuildFile; fileRef = 36FF707FC5EE475AA640BF23 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+469916B06CA441A69B7734D6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */ = {isa = PBXBuildFile; fileRef = D0F3534EC1844B978AEB84FB /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3FCE548CF32A47BCB74A7343 /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 5EFBB0E238A543038CBC967A /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+73EE240A6D0E412D9D54843C /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */ = {isa = PBXBuildFile; fileRef = ED25CFDF39594DD881C384B7 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+30543C5C38EF4CB5A77A97A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */ = {isa = PBXBuildFile; fileRef = 9A54CD5784894608993EFAB3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DCD5FE8D66B747EDAB1AF2E4 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 2487BC1D8C644EE6BD024B3A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D877E4BBC28648078F7CBDDC /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */ = {isa = PBXBuildFile; fileRef = 3018366F900140DB8158F3AF /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+7B87268E981D4764A08963D6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */ = {isa = PBXBuildFile; fileRef = E1DB6E5D4C4147C99AAF1FB4 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C35257CFB13542E4A851C5FC /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 9C72C72EF69D479C832DF16A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+0F87582A7C0C46A194268165 /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */ = {isa = PBXBuildFile; fileRef = 558F6D439E6C41CB99D692FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+23B6DD9EA7B34DA9A8AF1E56 /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 23199F44E7CD496D8CD40B1A /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2B7A26902EF74A5C929AE4CF /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */ = {isa = PBXBuildFile; fileRef = 9C12FD71581B400F978F45BD /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DFD607CD2C064CD3BB0F7D80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 18C1A089011B410F9114C424 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+31AC1AEA735A47319F00477B /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */ = {isa = PBXBuildFile; fileRef = 44A9D07F6F0947D6A08BB59E /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6042C52131C840BEBF26FDD9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 4374A6754E144244861442FC /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1A6DD1D62B454FCCB6E2B7A2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */ = {isa = PBXBuildFile; fileRef = C8C27605172F42DDBD09242B /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+7E0E6A079D0340EF97733E8B /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */ = {isa = PBXBuildFile; fileRef = C0531FE0FBBC40DDBDDB2D4A /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+3AA00B1ADD1B4CF8B2878B91 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */ = {isa = PBXBuildFile; fileRef = 95A0C472B7044C7C9C3B9411 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+32ED8E31319A45B696CBEEEB /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */ = {isa = PBXBuildFile; fileRef = BE4FB33B7B984524BC6340A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+349C50EAC1D04FCFB1FC3C50 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */ = {isa = PBXBuildFile; fileRef = 5F76ED2B8F534139B60AEA98 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2F36655E661D48A1AE563628 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 62236855A8A645E8B9B35325 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5AD25604C1C947D5B261BD1C /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */ = {isa = PBXBuildFile; fileRef = 423EA54AD1F8477EBACBAADF /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+72FC9239EF984505A34A1DF6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */ = {isa = PBXBuildFile; fileRef = BE0EE46952214797B1649EE2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DACF036AC02142148AD73325 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */ = {isa = PBXBuildFile; fileRef = FB4BADBE0C8741549A4B82B6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+18F3FBAF0AD547659CAB0987 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */ = {isa = PBXBuildFile; fileRef = F923A5C68B84492EAFF8A6DC /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+41ACE2E1AA7F4CFEB6098F44 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */ = {isa = PBXBuildFile; fileRef = 4728A7B009DC417894B80616 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D471543846794CDF8673FCF1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */ = {isa = PBXBuildFile; fileRef = BAA40288018C45768D9EF382 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+447975FFEAF84A4CA49405C2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */ = {isa = PBXBuildFile; fileRef = CC0625F72B2F41998F73BBE8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A86086E395154A4CADB467A2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 55D6ED2242E740D996AAA721 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E07C15E2B4EC4677838EFF45 /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */ = {isa = PBXBuildFile; fileRef = 5874E910BC754735B6C9952E /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+F4FB6885822044C2BB0296B9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 53708448D6E94C91AF48907B /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E0EF54C355044137A8342941 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */ = {isa = PBXBuildFile; fileRef = 27796714C32743BF928AC867 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2ACC793EE51D4BD3BF435FFE /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */ = {isa = PBXBuildFile; fileRef = DAE39071E4384DF4B3FD5142 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2292C44284F24012AE4DAE88 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */ = {isa = PBXBuildFile; fileRef = C2332A0181904A26BEAFF48D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1759BF4056744DD98E5D63A0 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 5E699BB2BE414B1EA00C632C /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+794CA5593CC84D47BA45034F /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */ = {isa = PBXBuildFile; fileRef = 232AB2B2937C4280820682A8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+01828EB7F76C44C4938689A8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */ = {isa = PBXBuildFile; fileRef = 186C7B09EF7245EBA5E39240 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+7D240B6A255740778F6FDD23 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */ = {isa = PBXBuildFile; fileRef = C3354F12578244159CB7BC8E /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A96472E45C6A4B24AF7AC9BD /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 847683D24C374422ABF2DE12 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+97A8D677059348D58CE65707 /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */ = {isa = PBXBuildFile; fileRef = 26079F061908420E9FECA5D3 /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+60069DCF162F4544ABE97F45 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */ = {isa = PBXBuildFile; fileRef = CEDFBB95697644C182350335 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+8E117A73DA4F481D90D9FC2D /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */ = {isa = PBXBuildFile; fileRef = E35AE78EF5C749A4A0E0818A /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5C79CF8EB7D247A8A1B205A0 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */ = {isa = PBXBuildFile; fileRef = E01876EDFC7043388900B591 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+039261BBF7224D3EB89B1F07 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */ = {isa = PBXBuildFile; fileRef = 1E9B23F2305A4E5E8E17CACD /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+EBDB409022B54579B9CC5D95 /* /Users/aka/msgpack-c/include/msgpack/object.h */ = {isa = PBXBuildFile; fileRef = B9039B7F7CB54C10B3E2DB36 /* /Users/aka/msgpack-c/include/msgpack/object.h */; settings = { COMPILER_FLAGS = ""; }; };
+5E572264098240AC9DDDE167 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */ = {isa = PBXBuildFile; fileRef = 480DA7D087EB4AC0ABA77BF6 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E57AB77A476D437BA6168910 /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 26D48E48F9DA40F7A3A7E464 /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6CE9EBED6E964236AB07A498 /* /Users/aka/msgpack-c/include/msgpack/pack.h */ = {isa = PBXBuildFile; fileRef = 947DBB290F4E4A0BB86FC49C /* /Users/aka/msgpack-c/include/msgpack/pack.h */; settings = { COMPILER_FLAGS = ""; }; };
+E09066C6D51E4D36AB4FA4E7 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */ = {isa = PBXBuildFile; fileRef = 423B564B96DC4E6FBAC7A433 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+252053C507574D9184D53703 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */ = {isa = PBXBuildFile; fileRef = 824EB4AE31AE4902880F3253 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */; settings = { COMPILER_FLAGS = ""; }; };
+1C83E6926F8D4B6687E3F894 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */ = {isa = PBXBuildFile; fileRef = 29F81FD52DBA4ADF9257FEC6 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */; settings = { COMPILER_FLAGS = ""; }; };
+D14E8BBCEB3B4BB3931F9220 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */ = {isa = PBXBuildFile; fileRef = 4BDF5AF9D81A498085D0A556 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+D4E49ADDA52C44378355AF40 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */ = {isa = PBXBuildFile; fileRef = 07C6151A971741F28D8A1E43 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+218CCFDA096046588734D956 /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */ = {isa = PBXBuildFile; fileRef = 8EBD5CA0D82D47A192F438C1 /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */; settings = { COMPILER_FLAGS = ""; }; };
+9E70998C4A954DE3B50F067C /* /Users/aka/msgpack-c/include/msgpack/type.hpp */ = {isa = PBXBuildFile; fileRef = ED62A837CD114A179C53498B /* /Users/aka/msgpack-c/include/msgpack/type.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E3F4E69374A14BBFB6CE350D /* /Users/aka/msgpack-c/include/msgpack/unpack.h */ = {isa = PBXBuildFile; fileRef = 23A3C20DB88C402189F1B4CE /* /Users/aka/msgpack-c/include/msgpack/unpack.h */; settings = { COMPILER_FLAGS = ""; }; };
+FEDBFB85B5164EFEBD0CDD4B /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */ = {isa = PBXBuildFile; fileRef = EC4FE1DB4422499B8D461BA4 /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C975715B95084FE7BB396198 /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */ = {isa = PBXBuildFile; fileRef = 513E33CBAF064B7D911D9AEF /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */; settings = { COMPILER_FLAGS = ""; }; };
+5C31612F4C3D42FA9945D7A8 /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */ = {isa = PBXBuildFile; fileRef = 165A770113754E8C8D639B1A /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */; settings = { COMPILER_FLAGS = ""; }; };
+8E6D875383304BD5814225AB /* /Users/aka/msgpack-c/include/msgpack/util.h */ = {isa = PBXBuildFile; fileRef = 16605F15F2DF45CCB98FAB0B /* /Users/aka/msgpack-c/include/msgpack/util.h */; settings = { COMPILER_FLAGS = ""; }; };
+D8730C776DA8424A99AC2DDE /* /Users/aka/msgpack-c/include/msgpack/version.h */ = {isa = PBXBuildFile; fileRef = C240DCF1E9A042FC898769E3 /* /Users/aka/msgpack-c/include/msgpack/version.h */; settings = { COMPILER_FLAGS = ""; }; };
+0D1B3D9CF42B4CB8B9FB2488 /* /Users/aka/msgpack-c/include/msgpack/version.hpp */ = {isa = PBXBuildFile; fileRef = 2B6247CC6FEE4AEBB0254EE6 /* /Users/aka/msgpack-c/include/msgpack/version.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+AD02F1D2F0184FEDBEC16948 /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */ = {isa = PBXBuildFile; fileRef = 8F0D62B8C64A47F1AB3DD5F9 /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+06DEE7B5CFE24EAFAAAEA37F /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */ = {isa = PBXBuildFile; fileRef = D9FBA247FE7143F3A3C6D587 /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+4A81ECE83903430181D0DD0F /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */ = {isa = PBXBuildFile; fileRef = A3B2D3F4B5B8452CB013971A /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C3C9B0242087492F9DD8B623 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */ = {isa = PBXBuildFile; fileRef = 812B230947A6438EB8308D03 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */; settings = { COMPILER_FLAGS = ""; }; };
+BF27441E8C3940A9B3029EB0 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */ = {isa = PBXBuildFile; fileRef = 746A380F0D2F4B3AA4AE8356 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5DAC3F7E4CEC42968811E0CE /* /Users/aka/msgpack-c/include/msgpack/zone.h */ = {isa = PBXBuildFile; fileRef = 4E91F29E58F34CE1B707BE9B /* /Users/aka/msgpack-c/include/msgpack/zone.h */; settings = { COMPILER_FLAGS = ""; }; };
+E25DB19701A5465E8D3D2A0F /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */ = {isa = PBXBuildFile; fileRef = A217EA546DB5401E87807AD1 /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+D83CBD83F9504A70A12217A2 /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */ = {isa = PBXBuildFile; fileRef = 0B79B0E9D8D142BD873D3BFA /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+094846034E5448D1AE9B5402 /* /Users/aka/msgpack-c/src/objectc.c */ = {isa = PBXBuildFile; fileRef = 3FC951B51E2D402FB33B0369 /* /Users/aka/msgpack-c/src/objectc.c */; settings = { COMPILER_FLAGS = ""; }; };
+B53930D8574C415794FA73DB /* /Users/aka/msgpack-c/src/unpack.c */ = {isa = PBXBuildFile; fileRef = 4E085E90409D4336847589A3 /* /Users/aka/msgpack-c/src/unpack.c */; settings = { COMPILER_FLAGS = ""; }; };
+828295762E50491FADA44A12 /* /Users/aka/msgpack-c/src/version.c */ = {isa = PBXBuildFile; fileRef = E5D15DFAE6594311A818CCA3 /* /Users/aka/msgpack-c/src/version.c */; settings = { COMPILER_FLAGS = ""; }; };
+ED7C8DB8F98D4FB583C6B05F /* /Users/aka/msgpack-c/src/vrefbuffer.c */ = {isa = PBXBuildFile; fileRef = EEEAF773484B4FF987825AF9 /* /Users/aka/msgpack-c/src/vrefbuffer.c */; settings = { COMPILER_FLAGS = ""; }; };
+FDBA9A65AA944E64B0452138 /* /Users/aka/msgpack-c/src/zone.c */ = {isa = PBXBuildFile; fileRef = 265CC7A7A6784C71ADC08711 /* /Users/aka/msgpack-c/src/zone.c */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              A1AC01F3AA9D42AF9D961CAC /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              BD21BC7354474A36A0DC612A /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              4E5CD1675396472E982C6F52 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              F88CD360D2324A26986038B9 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              E9C2761CE15E48799F4E3A65 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              D7C92E40376B467197048987 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC9F31AF16EC40B58E2B3654 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 22ECBFC9155E4EA181DC10D4;
+                     remoteInfo = ZERO_CHECK;
+              };
+              2A61D48AD96740178F0D9CCD /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC9F31AF16EC40B58E2B3654 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E50BB71AFC5C452EB2710778;
+                     remoteInfo = "msgpack-static";
+              };
+              4D082D20BB8347FE89A64E2D /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC9F31AF16EC40B58E2B3654 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 27A18AC6F049479EA760E2C0;
+                     remoteInfo = msgpack;
+              };
+              EA60BAA9EB1847FC87E6F073 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC9F31AF16EC40B58E2B3654 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 40E4D7BB6F324C3E8B02E86E;
+                     remoteInfo = ALL_BUILD;
+              };
+              3C8A1309288F4C96B313A2D4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC9F31AF16EC40B58E2B3654 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 22ECBFC9155E4EA181DC10D4;
+                     remoteInfo = ZERO_CHECK;
+              };
+              089E59B080F74A8F8113320F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC9F31AF16EC40B58E2B3654 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 22ECBFC9155E4EA181DC10D4;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+25A1512301FE40C3966D8127 /* /Users/aka/msgpack-c/include/msgpack.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "msgpack.hpp"; path = "include/msgpack.hpp"; sourceTree = SOURCE_ROOT; };
+37789FA40BAC406EBAA2746A /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "bool.hpp"; path = "include/msgpack/adaptor/bool.hpp"; sourceTree = SOURCE_ROOT; };
+751DE0FBB063447089B47E80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "bool_fwd.hpp"; path = "include/msgpack/adaptor/bool_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+BEE6DF4014ED4DCBB3A0A431 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "char_ptr.hpp"; path = "include/msgpack/adaptor/char_ptr.hpp"; sourceTree = SOURCE_ROOT; };
+C5517848EBF041E0B1112186 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "char_ptr_fwd.hpp"; path = "include/msgpack/adaptor/char_ptr_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+238B59F6FD974D1588B5A865 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "array.hpp"; path = "include/msgpack/adaptor/cpp11/array.hpp"; sourceTree = SOURCE_ROOT; };
+E7E195D1909946E9B24D8866 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "array_char.hpp"; path = "include/msgpack/adaptor/cpp11/array_char.hpp"; sourceTree = SOURCE_ROOT; };
+D60A8D6678704516B01E28D9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "array_char_fwd.hpp"; path = "include/msgpack/adaptor/cpp11/array_char_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+87A4FA776BF446978822C5FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "array_fwd.hpp"; path = "include/msgpack/adaptor/cpp11/array_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+25A0096C3183451F85BE3A90 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "forward_list.hpp"; path = "include/msgpack/adaptor/cpp11/forward_list.hpp"; sourceTree = SOURCE_ROOT; };
+1AE76295DCC646C1BFF24E65 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "forward_list_fwd.hpp"; path = "include/msgpack/adaptor/cpp11/forward_list_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+19FDB8730A4B40108AD05CD1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "tuple.hpp"; path = "include/msgpack/adaptor/cpp11/tuple.hpp"; sourceTree = SOURCE_ROOT; };
+24B0EDD631F44CA584395D42 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "tuple_fwd.hpp"; path = "include/msgpack/adaptor/cpp11/tuple_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+6C9AC8D7E87840B4BD37B035 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_map.hpp"; path = "include/msgpack/adaptor/cpp11/unordered_map.hpp"; sourceTree = SOURCE_ROOT; };
+5EDDEE5608CA42589EB45A2D /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_map_fwd.hpp"; path = "include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+AB8870348FF54D86912C743A /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_set.hpp"; path = "include/msgpack/adaptor/cpp11/unordered_set.hpp"; sourceTree = SOURCE_ROOT; };
+7FBD084C0CCE4936876AA453 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_set_fwd.hpp"; path = "include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+36FF707FC5EE475AA640BF23 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "define.hpp"; path = "include/msgpack/adaptor/define.hpp"; sourceTree = SOURCE_ROOT; };
+D0F3534EC1844B978AEB84FB /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "deque.hpp"; path = "include/msgpack/adaptor/deque.hpp"; sourceTree = SOURCE_ROOT; };
+5EFBB0E238A543038CBC967A /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "deque_fwd.hpp"; path = "include/msgpack/adaptor/deque_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+ED25CFDF39594DD881C384B7 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp03_define.hpp"; path = "include/msgpack/adaptor/detail/cpp03_define.hpp"; sourceTree = SOURCE_ROOT; };
+9A54CD5784894608993EFAB3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp03_msgpack_tuple.hpp"; path = "include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp"; sourceTree = SOURCE_ROOT; };
+2487BC1D8C644EE6BD024B3A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp03_msgpack_tuple_fwd.hpp"; path = "include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+3018366F900140DB8158F3AF /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp11_define.hpp"; path = "include/msgpack/adaptor/detail/cpp11_define.hpp"; sourceTree = SOURCE_ROOT; };
+E1DB6E5D4C4147C99AAF1FB4 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp11_msgpack_tuple.hpp"; path = "include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp"; sourceTree = SOURCE_ROOT; };
+9C72C72EF69D479C832DF16A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp11_msgpack_tuple_fwd.hpp"; path = "include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+558F6D439E6C41CB99D692FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "fixint.hpp"; path = "include/msgpack/adaptor/fixint.hpp"; sourceTree = SOURCE_ROOT; };
+23199F44E7CD496D8CD40B1A /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "fixint_fwd.hpp"; path = "include/msgpack/adaptor/fixint_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+9C12FD71581B400F978F45BD /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "float.hpp"; path = "include/msgpack/adaptor/float.hpp"; sourceTree = SOURCE_ROOT; };
+18C1A089011B410F9114C424 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "float_fwd.hpp"; path = "include/msgpack/adaptor/float_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+44A9D07F6F0947D6A08BB59E /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "int.hpp"; path = "include/msgpack/adaptor/int.hpp"; sourceTree = SOURCE_ROOT; };
+4374A6754E144244861442FC /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "int_fwd.hpp"; path = "include/msgpack/adaptor/int_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+C8C27605172F42DDBD09242B /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "list.hpp"; path = "include/msgpack/adaptor/list.hpp"; sourceTree = SOURCE_ROOT; };
+C0531FE0FBBC40DDBDDB2D4A /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "list_fwd.hpp"; path = "include/msgpack/adaptor/list_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+95A0C472B7044C7C9C3B9411 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "map.hpp"; path = "include/msgpack/adaptor/map.hpp"; sourceTree = SOURCE_ROOT; };
+BE4FB33B7B984524BC6340A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "map_fwd.hpp"; path = "include/msgpack/adaptor/map_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+5F76ED2B8F534139B60AEA98 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "msgpack_tuple.hpp"; path = "include/msgpack/adaptor/msgpack_tuple.hpp"; sourceTree = SOURCE_ROOT; };
+62236855A8A645E8B9B35325 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "msgpack_tuple_fwd.hpp"; path = "include/msgpack/adaptor/msgpack_tuple_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+423EA54AD1F8477EBACBAADF /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "nil.hpp"; path = "include/msgpack/adaptor/nil.hpp"; sourceTree = SOURCE_ROOT; };
+BE0EE46952214797B1649EE2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "nil_fwd.hpp"; path = "include/msgpack/adaptor/nil_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+FB4BADBE0C8741549A4B82B6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "pair.hpp"; path = "include/msgpack/adaptor/pair.hpp"; sourceTree = SOURCE_ROOT; };
+F923A5C68B84492EAFF8A6DC /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "pair_fwd.hpp"; path = "include/msgpack/adaptor/pair_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+4728A7B009DC417894B80616 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "raw.hpp"; path = "include/msgpack/adaptor/raw.hpp"; sourceTree = SOURCE_ROOT; };
+BAA40288018C45768D9EF382 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "raw_fwd.hpp"; path = "include/msgpack/adaptor/raw_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+CC0625F72B2F41998F73BBE8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "set.hpp"; path = "include/msgpack/adaptor/set.hpp"; sourceTree = SOURCE_ROOT; };
+55D6ED2242E740D996AAA721 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "set_fwd.hpp"; path = "include/msgpack/adaptor/set_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+5874E910BC754735B6C9952E /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "string.hpp"; path = "include/msgpack/adaptor/string.hpp"; sourceTree = SOURCE_ROOT; };
+53708448D6E94C91AF48907B /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "string_fwd.hpp"; path = "include/msgpack/adaptor/string_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+27796714C32743BF928AC867 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_map.hpp"; path = "include/msgpack/adaptor/tr1/unordered_map.hpp"; sourceTree = SOURCE_ROOT; };
+DAE39071E4384DF4B3FD5142 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_map_fwd.hpp"; path = "include/msgpack/adaptor/tr1/unordered_map_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+C2332A0181904A26BEAFF48D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_set.hpp"; path = "include/msgpack/adaptor/tr1/unordered_set.hpp"; sourceTree = SOURCE_ROOT; };
+5E699BB2BE414B1EA00C632C /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unordered_set_fwd.hpp"; path = "include/msgpack/adaptor/tr1/unordered_set_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+232AB2B2937C4280820682A8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "vector.hpp"; path = "include/msgpack/adaptor/vector.hpp"; sourceTree = SOURCE_ROOT; };
+186C7B09EF7245EBA5E39240 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "vector_char.hpp"; path = "include/msgpack/adaptor/vector_char.hpp"; sourceTree = SOURCE_ROOT; };
+C3354F12578244159CB7BC8E /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "vector_char_fwd.hpp"; path = "include/msgpack/adaptor/vector_char_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+847683D24C374422ABF2DE12 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "vector_fwd.hpp"; path = "include/msgpack/adaptor/vector_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+26079F061908420E9FECA5D3 /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp_config.hpp"; path = "include/msgpack/cpp_config.hpp"; sourceTree = SOURCE_ROOT; };
+CEDFBB95697644C182350335 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp03_zone.hpp"; path = "include/msgpack/detail/cpp03_zone.hpp"; sourceTree = SOURCE_ROOT; };
+E35AE78EF5C749A4A0E0818A /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "cpp11_zone.hpp"; path = "include/msgpack/detail/cpp11_zone.hpp"; sourceTree = SOURCE_ROOT; };
+E01876EDFC7043388900B591 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "fbuffer.h"; path = "include/msgpack/fbuffer.h"; sourceTree = SOURCE_ROOT; };
+1E9B23F2305A4E5E8E17CACD /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "fbuffer.hpp"; path = "include/msgpack/fbuffer.hpp"; sourceTree = SOURCE_ROOT; };
+B9039B7F7CB54C10B3E2DB36 /* /Users/aka/msgpack-c/include/msgpack/object.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "object.h"; path = "include/msgpack/object.h"; sourceTree = SOURCE_ROOT; };
+480DA7D087EB4AC0ABA77BF6 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "object.hpp"; path = "include/msgpack/object.hpp"; sourceTree = SOURCE_ROOT; };
+26D48E48F9DA40F7A3A7E464 /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "object_fwd.hpp"; path = "include/msgpack/object_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+947DBB290F4E4A0BB86FC49C /* /Users/aka/msgpack-c/include/msgpack/pack.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pack.h"; path = "include/msgpack/pack.h"; sourceTree = SOURCE_ROOT; };
+423B564B96DC4E6FBAC7A433 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "pack.hpp"; path = "include/msgpack/pack.hpp"; sourceTree = SOURCE_ROOT; };
+824EB4AE31AE4902880F3253 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pack_define.h"; path = "include/msgpack/pack_define.h"; sourceTree = SOURCE_ROOT; };
+29F81FD52DBA4ADF9257FEC6 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "pack_template.h"; path = "include/msgpack/pack_template.h"; sourceTree = SOURCE_ROOT; };
+4BDF5AF9D81A498085D0A556 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "sbuffer.h"; path = "include/msgpack/sbuffer.h"; sourceTree = SOURCE_ROOT; };
+07C6151A971741F28D8A1E43 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "sbuffer.hpp"; path = "include/msgpack/sbuffer.hpp"; sourceTree = SOURCE_ROOT; };
+8EBD5CA0D82D47A192F438C1 /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "sysdep.h"; path = "include/msgpack/sysdep.h"; sourceTree = SOURCE_ROOT; };
+ED62A837CD114A179C53498B /* /Users/aka/msgpack-c/include/msgpack/type.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "type.hpp"; path = "include/msgpack/type.hpp"; sourceTree = SOURCE_ROOT; };
+23A3C20DB88C402189F1B4CE /* /Users/aka/msgpack-c/include/msgpack/unpack.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "unpack.h"; path = "include/msgpack/unpack.h"; sourceTree = SOURCE_ROOT; };
+EC4FE1DB4422499B8D461BA4 /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "unpack.hpp"; path = "include/msgpack/unpack.hpp"; sourceTree = SOURCE_ROOT; };
+513E33CBAF064B7D911D9AEF /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "unpack_define.h"; path = "include/msgpack/unpack_define.h"; sourceTree = SOURCE_ROOT; };
+165A770113754E8C8D639B1A /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "unpack_template.h"; path = "include/msgpack/unpack_template.h"; sourceTree = SOURCE_ROOT; };
+16605F15F2DF45CCB98FAB0B /* /Users/aka/msgpack-c/include/msgpack/util.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "util.h"; path = "include/msgpack/util.h"; sourceTree = SOURCE_ROOT; };
+C240DCF1E9A042FC898769E3 /* /Users/aka/msgpack-c/include/msgpack/version.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "version.h"; path = "include/msgpack/version.h"; sourceTree = SOURCE_ROOT; };
+2B6247CC6FEE4AEBB0254EE6 /* /Users/aka/msgpack-c/include/msgpack/version.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "version.hpp"; path = "include/msgpack/version.hpp"; sourceTree = SOURCE_ROOT; };
+8F0D62B8C64A47F1AB3DD5F9 /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "versioning.hpp"; path = "include/msgpack/versioning.hpp"; sourceTree = SOURCE_ROOT; };
+D9FBA247FE7143F3A3C6D587 /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "vrefbuffer.h"; path = "include/msgpack/vrefbuffer.h"; sourceTree = SOURCE_ROOT; };
+A3B2D3F4B5B8452CB013971A /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "vrefbuffer.hpp"; path = "include/msgpack/vrefbuffer.hpp"; sourceTree = SOURCE_ROOT; };
+812B230947A6438EB8308D03 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "zbuffer.h"; path = "include/msgpack/zbuffer.h"; sourceTree = SOURCE_ROOT; };
+746A380F0D2F4B3AA4AE8356 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "zbuffer.hpp"; path = "include/msgpack/zbuffer.hpp"; sourceTree = SOURCE_ROOT; };
+4E91F29E58F34CE1B707BE9B /* /Users/aka/msgpack-c/include/msgpack/zone.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "zone.h"; path = "include/msgpack/zone.h"; sourceTree = SOURCE_ROOT; };
+A217EA546DB5401E87807AD1 /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "zone.hpp"; path = "include/msgpack/zone.hpp"; sourceTree = SOURCE_ROOT; };
+0B79B0E9D8D142BD873D3BFA /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.h"; fileEncoding = 4; name = "msgpack_fwd.hpp"; path = "include/msgpack_fwd.hpp"; sourceTree = SOURCE_ROOT; };
+3FC951B51E2D402FB33B0369 /* /Users/aka/msgpack-c/src/objectc.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "objectc.c"; path = "src/objectc.c"; sourceTree = SOURCE_ROOT; };
+4E085E90409D4336847589A3 /* /Users/aka/msgpack-c/src/unpack.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "unpack.c"; path = "src/unpack.c"; sourceTree = SOURCE_ROOT; };
+E5D15DFAE6594311A818CCA3 /* /Users/aka/msgpack-c/src/version.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "version.c"; path = "src/version.c"; sourceTree = SOURCE_ROOT; };
+EEEAF773484B4FF987825AF9 /* /Users/aka/msgpack-c/src/vrefbuffer.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "vrefbuffer.c"; path = "src/vrefbuffer.c"; sourceTree = SOURCE_ROOT; };
+265CC7A7A6784C71ADC08711 /* /Users/aka/msgpack-c/src/zone.c */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.c"; fileEncoding = 4; name = "zone.c"; path = "src/zone.c"; sourceTree = SOURCE_ROOT; };
+C78D4C7D42BA413DBE822677 /* msgpack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = "libmsgpack.dylib"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+077B1B0AAAA14D589C0B1513 /* msgpack-static */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libmsgpack.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              AD863A390A974D2BB4FB5D43  = {
+                     isa = PBXGroup;
+                     children = (
+                            6D3754B9FB484F5C9A485340 /* Sources */,
+                            EACE3B1DB35645879061F27B /* Resources */,
+                            EAEBA516DAD44570B7859B7D /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              6D3754B9FB484F5C9A485340 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            062B59A0FF2848A28D5FCD19 /* ALL_BUILD */,
+                            FDC57FA3F60D4D3180ABD24B /* ZERO_CHECK */,
+                            8520D04812184D1396E17644 /* msgpack */,
+                            86AE9609D42B43C4B0D05508 /* msgpack-static */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              EACE3B1DB35645879061F27B /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              062B59A0FF2848A28D5FCD19 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6234A1948499414FA1FB330A /* CMake Rules */,
+                            7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              6234A1948499414FA1FB330A /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              FDC57FA3F60D4D3180ABD24B /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            89938CC54ABA46C6B7968A14 /* CMake Rules */,
+                            7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              89938CC54ABA46C6B7968A14 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              8520D04812184D1396E17644 /* msgpack */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FBB65E0AB1AB4C9DBFB1F284 /* Source Files */,
+                            34A8460EB3514613A80BEE01 /* Header Files */,
+                            7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */,
+                     );
+                     name = msgpack;
+                     sourceTree = "<group>";
+              };
+              FBB65E0AB1AB4C9DBFB1F284 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3FC951B51E2D402FB33B0369 /* /Users/aka/msgpack-c/src/objectc.c */,
+                            4E085E90409D4336847589A3 /* /Users/aka/msgpack-c/src/unpack.c */,
+                            E5D15DFAE6594311A818CCA3 /* /Users/aka/msgpack-c/src/version.c */,
+                            EEEAF773484B4FF987825AF9 /* /Users/aka/msgpack-c/src/vrefbuffer.c */,
+                            265CC7A7A6784C71ADC08711 /* /Users/aka/msgpack-c/src/zone.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              34A8460EB3514613A80BEE01 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            25A1512301FE40C3966D8127 /* /Users/aka/msgpack-c/include/msgpack.hpp */,
+                            37789FA40BAC406EBAA2746A /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */,
+                            751DE0FBB063447089B47E80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */,
+                            BEE6DF4014ED4DCBB3A0A431 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */,
+                            C5517848EBF041E0B1112186 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */,
+                            238B59F6FD974D1588B5A865 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */,
+                            E7E195D1909946E9B24D8866 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */,
+                            D60A8D6678704516B01E28D9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */,
+                            87A4FA776BF446978822C5FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */,
+                            25A0096C3183451F85BE3A90 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */,
+                            1AE76295DCC646C1BFF24E65 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */,
+                            19FDB8730A4B40108AD05CD1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */,
+                            24B0EDD631F44CA584395D42 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */,
+                            6C9AC8D7E87840B4BD37B035 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */,
+                            5EDDEE5608CA42589EB45A2D /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */,
+                            AB8870348FF54D86912C743A /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */,
+                            7FBD084C0CCE4936876AA453 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */,
+                            36FF707FC5EE475AA640BF23 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */,
+                            D0F3534EC1844B978AEB84FB /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */,
+                            5EFBB0E238A543038CBC967A /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */,
+                            ED25CFDF39594DD881C384B7 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */,
+                            9A54CD5784894608993EFAB3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */,
+                            2487BC1D8C644EE6BD024B3A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */,
+                            3018366F900140DB8158F3AF /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */,
+                            E1DB6E5D4C4147C99AAF1FB4 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */,
+                            9C72C72EF69D479C832DF16A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */,
+                            558F6D439E6C41CB99D692FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */,
+                            23199F44E7CD496D8CD40B1A /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */,
+                            9C12FD71581B400F978F45BD /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */,
+                            18C1A089011B410F9114C424 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */,
+                            44A9D07F6F0947D6A08BB59E /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */,
+                            4374A6754E144244861442FC /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */,
+                            C8C27605172F42DDBD09242B /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */,
+                            C0531FE0FBBC40DDBDDB2D4A /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */,
+                            95A0C472B7044C7C9C3B9411 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */,
+                            BE4FB33B7B984524BC6340A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */,
+                            5F76ED2B8F534139B60AEA98 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */,
+                            62236855A8A645E8B9B35325 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */,
+                            423EA54AD1F8477EBACBAADF /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */,
+                            BE0EE46952214797B1649EE2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */,
+                            FB4BADBE0C8741549A4B82B6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */,
+                            F923A5C68B84492EAFF8A6DC /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */,
+                            4728A7B009DC417894B80616 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */,
+                            BAA40288018C45768D9EF382 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */,
+                            CC0625F72B2F41998F73BBE8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */,
+                            55D6ED2242E740D996AAA721 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */,
+                            5874E910BC754735B6C9952E /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */,
+                            53708448D6E94C91AF48907B /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */,
+                            27796714C32743BF928AC867 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */,
+                            DAE39071E4384DF4B3FD5142 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */,
+                            C2332A0181904A26BEAFF48D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */,
+                            5E699BB2BE414B1EA00C632C /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */,
+                            232AB2B2937C4280820682A8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */,
+                            186C7B09EF7245EBA5E39240 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */,
+                            C3354F12578244159CB7BC8E /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */,
+                            847683D24C374422ABF2DE12 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */,
+                            26079F061908420E9FECA5D3 /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */,
+                            CEDFBB95697644C182350335 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */,
+                            E35AE78EF5C749A4A0E0818A /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */,
+                            E01876EDFC7043388900B591 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */,
+                            1E9B23F2305A4E5E8E17CACD /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */,
+                            B9039B7F7CB54C10B3E2DB36 /* /Users/aka/msgpack-c/include/msgpack/object.h */,
+                            480DA7D087EB4AC0ABA77BF6 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */,
+                            26D48E48F9DA40F7A3A7E464 /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */,
+                            947DBB290F4E4A0BB86FC49C /* /Users/aka/msgpack-c/include/msgpack/pack.h */,
+                            423B564B96DC4E6FBAC7A433 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */,
+                            824EB4AE31AE4902880F3253 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */,
+                            29F81FD52DBA4ADF9257FEC6 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */,
+                            4BDF5AF9D81A498085D0A556 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */,
+                            07C6151A971741F28D8A1E43 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */,
+                            8EBD5CA0D82D47A192F438C1 /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */,
+                            ED62A837CD114A179C53498B /* /Users/aka/msgpack-c/include/msgpack/type.hpp */,
+                            23A3C20DB88C402189F1B4CE /* /Users/aka/msgpack-c/include/msgpack/unpack.h */,
+                            EC4FE1DB4422499B8D461BA4 /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */,
+                            513E33CBAF064B7D911D9AEF /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */,
+                            165A770113754E8C8D639B1A /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */,
+                            16605F15F2DF45CCB98FAB0B /* /Users/aka/msgpack-c/include/msgpack/util.h */,
+                            C240DCF1E9A042FC898769E3 /* /Users/aka/msgpack-c/include/msgpack/version.h */,
+                            2B6247CC6FEE4AEBB0254EE6 /* /Users/aka/msgpack-c/include/msgpack/version.hpp */,
+                            8F0D62B8C64A47F1AB3DD5F9 /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */,
+                            D9FBA247FE7143F3A3C6D587 /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */,
+                            A3B2D3F4B5B8452CB013971A /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */,
+                            812B230947A6438EB8308D03 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */,
+                            746A380F0D2F4B3AA4AE8356 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */,
+                            4E91F29E58F34CE1B707BE9B /* /Users/aka/msgpack-c/include/msgpack/zone.h */,
+                            A217EA546DB5401E87807AD1 /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */,
+                            0B79B0E9D8D142BD873D3BFA /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              86AE9609D42B43C4B0D05508 /* msgpack-static */ = {
+                     isa = PBXGroup;
+                     children = (
+                            EE4707C9B2E14E72BD20ECE3 /* Source Files */,
+                            4AC6D31B06224944B9872527 /* Header Files */,
+                            7C8393D6306F48B5BDF3B74C /* /Users/aka/msgpack-c/CMakeLists.txt */,
+                     );
+                     name = "msgpack-static";
+                     sourceTree = "<group>";
+              };
+              EE4707C9B2E14E72BD20ECE3 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3FC951B51E2D402FB33B0369 /* /Users/aka/msgpack-c/src/objectc.c */,
+                            4E085E90409D4336847589A3 /* /Users/aka/msgpack-c/src/unpack.c */,
+                            E5D15DFAE6594311A818CCA3 /* /Users/aka/msgpack-c/src/version.c */,
+                            EEEAF773484B4FF987825AF9 /* /Users/aka/msgpack-c/src/vrefbuffer.c */,
+                            265CC7A7A6784C71ADC08711 /* /Users/aka/msgpack-c/src/zone.c */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              4AC6D31B06224944B9872527 /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            25A1512301FE40C3966D8127 /* /Users/aka/msgpack-c/include/msgpack.hpp */,
+                            37789FA40BAC406EBAA2746A /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool.hpp */,
+                            751DE0FBB063447089B47E80 /* /Users/aka/msgpack-c/include/msgpack/adaptor/bool_fwd.hpp */,
+                            BEE6DF4014ED4DCBB3A0A431 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr.hpp */,
+                            C5517848EBF041E0B1112186 /* /Users/aka/msgpack-c/include/msgpack/adaptor/char_ptr_fwd.hpp */,
+                            238B59F6FD974D1588B5A865 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array.hpp */,
+                            E7E195D1909946E9B24D8866 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char.hpp */,
+                            D60A8D6678704516B01E28D9 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_char_fwd.hpp */,
+                            87A4FA776BF446978822C5FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/array_fwd.hpp */,
+                            25A0096C3183451F85BE3A90 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list.hpp */,
+                            1AE76295DCC646C1BFF24E65 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/forward_list_fwd.hpp */,
+                            19FDB8730A4B40108AD05CD1 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple.hpp */,
+                            24B0EDD631F44CA584395D42 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/tuple_fwd.hpp */,
+                            6C9AC8D7E87840B4BD37B035 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map.hpp */,
+                            5EDDEE5608CA42589EB45A2D /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_map_fwd.hpp */,
+                            AB8870348FF54D86912C743A /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set.hpp */,
+                            7FBD084C0CCE4936876AA453 /* /Users/aka/msgpack-c/include/msgpack/adaptor/cpp11/unordered_set_fwd.hpp */,
+                            36FF707FC5EE475AA640BF23 /* /Users/aka/msgpack-c/include/msgpack/adaptor/define.hpp */,
+                            D0F3534EC1844B978AEB84FB /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque.hpp */,
+                            5EFBB0E238A543038CBC967A /* /Users/aka/msgpack-c/include/msgpack/adaptor/deque_fwd.hpp */,
+                            ED25CFDF39594DD881C384B7 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_define.hpp */,
+                            9A54CD5784894608993EFAB3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple.hpp */,
+                            2487BC1D8C644EE6BD024B3A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp03_msgpack_tuple_fwd.hpp */,
+                            3018366F900140DB8158F3AF /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_define.hpp */,
+                            E1DB6E5D4C4147C99AAF1FB4 /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple.hpp */,
+                            9C72C72EF69D479C832DF16A /* /Users/aka/msgpack-c/include/msgpack/adaptor/detail/cpp11_msgpack_tuple_fwd.hpp */,
+                            558F6D439E6C41CB99D692FD /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint.hpp */,
+                            23199F44E7CD496D8CD40B1A /* /Users/aka/msgpack-c/include/msgpack/adaptor/fixint_fwd.hpp */,
+                            9C12FD71581B400F978F45BD /* /Users/aka/msgpack-c/include/msgpack/adaptor/float.hpp */,
+                            18C1A089011B410F9114C424 /* /Users/aka/msgpack-c/include/msgpack/adaptor/float_fwd.hpp */,
+                            44A9D07F6F0947D6A08BB59E /* /Users/aka/msgpack-c/include/msgpack/adaptor/int.hpp */,
+                            4374A6754E144244861442FC /* /Users/aka/msgpack-c/include/msgpack/adaptor/int_fwd.hpp */,
+                            C8C27605172F42DDBD09242B /* /Users/aka/msgpack-c/include/msgpack/adaptor/list.hpp */,
+                            C0531FE0FBBC40DDBDDB2D4A /* /Users/aka/msgpack-c/include/msgpack/adaptor/list_fwd.hpp */,
+                            95A0C472B7044C7C9C3B9411 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map.hpp */,
+                            BE4FB33B7B984524BC6340A3 /* /Users/aka/msgpack-c/include/msgpack/adaptor/map_fwd.hpp */,
+                            5F76ED2B8F534139B60AEA98 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple.hpp */,
+                            62236855A8A645E8B9B35325 /* /Users/aka/msgpack-c/include/msgpack/adaptor/msgpack_tuple_fwd.hpp */,
+                            423EA54AD1F8477EBACBAADF /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil.hpp */,
+                            BE0EE46952214797B1649EE2 /* /Users/aka/msgpack-c/include/msgpack/adaptor/nil_fwd.hpp */,
+                            FB4BADBE0C8741549A4B82B6 /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair.hpp */,
+                            F923A5C68B84492EAFF8A6DC /* /Users/aka/msgpack-c/include/msgpack/adaptor/pair_fwd.hpp */,
+                            4728A7B009DC417894B80616 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw.hpp */,
+                            BAA40288018C45768D9EF382 /* /Users/aka/msgpack-c/include/msgpack/adaptor/raw_fwd.hpp */,
+                            CC0625F72B2F41998F73BBE8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set.hpp */,
+                            55D6ED2242E740D996AAA721 /* /Users/aka/msgpack-c/include/msgpack/adaptor/set_fwd.hpp */,
+                            5874E910BC754735B6C9952E /* /Users/aka/msgpack-c/include/msgpack/adaptor/string.hpp */,
+                            53708448D6E94C91AF48907B /* /Users/aka/msgpack-c/include/msgpack/adaptor/string_fwd.hpp */,
+                            27796714C32743BF928AC867 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map.hpp */,
+                            DAE39071E4384DF4B3FD5142 /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_map_fwd.hpp */,
+                            C2332A0181904A26BEAFF48D /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set.hpp */,
+                            5E699BB2BE414B1EA00C632C /* /Users/aka/msgpack-c/include/msgpack/adaptor/tr1/unordered_set_fwd.hpp */,
+                            232AB2B2937C4280820682A8 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector.hpp */,
+                            186C7B09EF7245EBA5E39240 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char.hpp */,
+                            C3354F12578244159CB7BC8E /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_char_fwd.hpp */,
+                            847683D24C374422ABF2DE12 /* /Users/aka/msgpack-c/include/msgpack/adaptor/vector_fwd.hpp */,
+                            26079F061908420E9FECA5D3 /* /Users/aka/msgpack-c/include/msgpack/cpp_config.hpp */,
+                            CEDFBB95697644C182350335 /* /Users/aka/msgpack-c/include/msgpack/detail/cpp03_zone.hpp */,
+                            E35AE78EF5C749A4A0E0818A /* /Users/aka/msgpack-c/include/msgpack/detail/cpp11_zone.hpp */,
+                            E01876EDFC7043388900B591 /* /Users/aka/msgpack-c/include/msgpack/fbuffer.h */,
+                            1E9B23F2305A4E5E8E17CACD /* /Users/aka/msgpack-c/include/msgpack/fbuffer.hpp */,
+                            B9039B7F7CB54C10B3E2DB36 /* /Users/aka/msgpack-c/include/msgpack/object.h */,
+                            480DA7D087EB4AC0ABA77BF6 /* /Users/aka/msgpack-c/include/msgpack/object.hpp */,
+                            26D48E48F9DA40F7A3A7E464 /* /Users/aka/msgpack-c/include/msgpack/object_fwd.hpp */,
+                            947DBB290F4E4A0BB86FC49C /* /Users/aka/msgpack-c/include/msgpack/pack.h */,
+                            423B564B96DC4E6FBAC7A433 /* /Users/aka/msgpack-c/include/msgpack/pack.hpp */,
+                            824EB4AE31AE4902880F3253 /* /Users/aka/msgpack-c/include/msgpack/pack_define.h */,
+                            29F81FD52DBA4ADF9257FEC6 /* /Users/aka/msgpack-c/include/msgpack/pack_template.h */,
+                            4BDF5AF9D81A498085D0A556 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.h */,
+                            07C6151A971741F28D8A1E43 /* /Users/aka/msgpack-c/include/msgpack/sbuffer.hpp */,
+                            8EBD5CA0D82D47A192F438C1 /* /Users/aka/msgpack-c/include/msgpack/sysdep.h */,
+                            ED62A837CD114A179C53498B /* /Users/aka/msgpack-c/include/msgpack/type.hpp */,
+                            23A3C20DB88C402189F1B4CE /* /Users/aka/msgpack-c/include/msgpack/unpack.h */,
+                            EC4FE1DB4422499B8D461BA4 /* /Users/aka/msgpack-c/include/msgpack/unpack.hpp */,
+                            513E33CBAF064B7D911D9AEF /* /Users/aka/msgpack-c/include/msgpack/unpack_define.h */,
+                            165A770113754E8C8D639B1A /* /Users/aka/msgpack-c/include/msgpack/unpack_template.h */,
+                            16605F15F2DF45CCB98FAB0B /* /Users/aka/msgpack-c/include/msgpack/util.h */,
+                            C240DCF1E9A042FC898769E3 /* /Users/aka/msgpack-c/include/msgpack/version.h */,
+                            2B6247CC6FEE4AEBB0254EE6 /* /Users/aka/msgpack-c/include/msgpack/version.hpp */,
+                            8F0D62B8C64A47F1AB3DD5F9 /* /Users/aka/msgpack-c/include/msgpack/versioning.hpp */,
+                            D9FBA247FE7143F3A3C6D587 /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.h */,
+                            A3B2D3F4B5B8452CB013971A /* /Users/aka/msgpack-c/include/msgpack/vrefbuffer.hpp */,
+                            812B230947A6438EB8308D03 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.h */,
+                            746A380F0D2F4B3AA4AE8356 /* /Users/aka/msgpack-c/include/msgpack/zbuffer.hpp */,
+                            4E91F29E58F34CE1B707BE9B /* /Users/aka/msgpack-c/include/msgpack/zone.h */,
+                            A217EA546DB5401E87807AD1 /* /Users/aka/msgpack-c/include/msgpack/zone.hpp */,
+                            0B79B0E9D8D142BD873D3BFA /* /Users/aka/msgpack-c/include/msgpack_fwd.hpp */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              EAEBA516DAD44570B7859B7D /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C78D4C7D42BA413DBE822677 /* msgpack */,
+                            077B1B0AAAA14D589C0B1513 /* msgpack-static */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              27A18AC6F049479EA760E2C0 /* msgpack */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 9868D6E4AA684035AEA5B8FD /* Build configuration list for PBXNativeTarget "msgpack" */;
+                     buildPhases = (
+                            58F2204CF76B4965AF377F73 /* Sources */,
+                            A13632B998484A7381334CE6 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            4F52FFA33C784566B6930EA3 /* PBXTargetDependency */,
+                     );
+                     name = msgpack;
+                     productName = msgpack;
+                     productReference = C78D4C7D42BA413DBE822677 /* msgpack */;
+                     productType = "com.apple.product-type.library.dynamic";
+              };
+              E50BB71AFC5C452EB2710778 /* msgpack-static */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 01B2EC58D42649DF92A0ED70 /* Build configuration list for PBXNativeTarget "msgpack-static" */;
+                     buildPhases = (
+                            4FA87F20036543928184AC12 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            950C07B2E5A24B969368216C /* PBXTargetDependency */,
+                     );
+                     name = "msgpack-static";
+                     productName = "msgpack-static";
+                     productReference = 077B1B0AAAA14D589C0B1513 /* msgpack-static */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              DC9F31AF16EC40B58E2B3654 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = E7C960C389794093BB8D42F5 /* Build configuration list for PBXProject  "msgpack" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            BD21BC7354474A36A0DC612A /* Debug */,
+                            4E5CD1675396472E982C6F52 /* Release */,
+                            F88CD360D2324A26986038B9 /* MinSizeRel */,
+                            E9C2761CE15E48799F4E3A65 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = AD863A390A974D2BB4FB5D43;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            40E4D7BB6F324C3E8B02E86E /* ALL_BUILD */,
+                            22ECBFC9155E4EA181DC10D4 /* ZERO_CHECK */,
+                            739AF8A72C814B2B84B5E4EF /* install */,
+                            27A18AC6F049479EA760E2C0 /* msgpack */,
+                            E50BB71AFC5C452EB2710778 /* msgpack-static */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              7E620A9FE0054CF9885AD58F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              012DE0253E864072AB1E0CF4 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/aka/msgpack-c -f /Users/aka/msgpack-c/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              536B4FCE1EA3451CAEBC971D /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              C03E8FABAB4B4F79AB68056A /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/aka/msgpack-c -f /Users/aka/msgpack-c/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              588B7D2C6263457899B42A14 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              2940CCB3B8DA40FDA3B58DBF /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/aka/msgpack-c -f /Users/aka/msgpack-c/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              A13632B998484A7381334CE6 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/aka/msgpack-c -f /Users/aka/msgpack-c/CMakeScripts/msgpack_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              58F2204CF76B4965AF377F73 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            D800F5D833D6438DAB16ACFD /* /Users/aka/msgpack-c/src/objectc.c */,
+                            D88C0756D3234548ABEFCD3F /* /Users/aka/msgpack-c/src/unpack.c */,
+                            28D36C134F1E4BCA88E4B7D5 /* /Users/aka/msgpack-c/src/version.c */,
+                            E430BC29DD63449DAD969372 /* /Users/aka/msgpack-c/src/vrefbuffer.c */,
+                            D700214C98C24CA2BC763EC7 /* /Users/aka/msgpack-c/src/zone.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+              4FA87F20036543928184AC12 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            094846034E5448D1AE9B5402 /* /Users/aka/msgpack-c/src/objectc.c */,
+                            B53930D8574C415794FA73DB /* /Users/aka/msgpack-c/src/unpack.c */,
+                            828295762E50491FADA44A12 /* /Users/aka/msgpack-c/src/version.c */,
+                            ED7C8DB8F98D4FB583C6B05F /* /Users/aka/msgpack-c/src/vrefbuffer.c */,
+                            FDBA9A65AA944E64B0452138 /* /Users/aka/msgpack-c/src/zone.c */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              1AF4B9CFF2BA4210A97B74AF /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 22ECBFC9155E4EA181DC10D4 /* ZERO_CHECK */;
+                     targetProxy = D7C92E40376B467197048987 /* PBXContainerItemProxy */;
+              };
+              A5BF752F3BF843B39BDB0AD1 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E50BB71AFC5C452EB2710778 /* msgpack-static */;
+                     targetProxy = 2A61D48AD96740178F0D9CCD /* PBXContainerItemProxy */;
+              };
+              07B6D124FB7A4AE59B0E8758 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 27A18AC6F049479EA760E2C0 /* msgpack */;
+                     targetProxy = 4D082D20BB8347FE89A64E2D /* PBXContainerItemProxy */;
+              };
+              2ECAF07ECBE94A918E26B7D8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 40E4D7BB6F324C3E8B02E86E /* ALL_BUILD */;
+                     targetProxy = EA60BAA9EB1847FC87E6F073 /* PBXContainerItemProxy */;
+              };
+              4F52FFA33C784566B6930EA3 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 22ECBFC9155E4EA181DC10D4 /* ZERO_CHECK */;
+                     targetProxy = 3C8A1309288F4C96B313A2D4 /* PBXContainerItemProxy */;
+              };
+              950C07B2E5A24B969368216C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 22ECBFC9155E4EA181DC10D4 /* ZERO_CHECK */;
+                     targetProxy = 089E59B080F74A8F8113320F /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              25D703D8DC1A42E28FD1D5AE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/aka/msgpack-c/build";
+                     };
+                     name = Debug;
+              };
+              591064D5FFDA46D79EFFD401 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/aka/msgpack-c/build";
+                     };
+                     name = Release;
+              };
+              1274C0837E774719A6EAC193 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/aka/msgpack-c/build";
+                     };
+                     name = MinSizeRel;
+              };
+              4E2F1E8CCC494F82AE0164B3 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+                            SYMROOT = "/Users/aka/msgpack-c/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              1C56F654AF56415CBDED167D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FACBAA8B78BF434A89ED6470 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              1DC231D016024B3CBA8628E3 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              D2791D75CA464FFBAB7FAE79 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              07A7AEBB8FFA4E9E9FB2721D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9FFA3CAEE5AB4B68AD96FE85 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              349D8643B3B145BCAE1BCB9F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              4415B589C055436D99F25296 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              38DF8198DA294D91B1B24E91 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0E9501472E4C4B119D27B3B7 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              32F0F8084D3A407CA479577D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              0A403BFB0D4C475098C64052 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              C83F8FD28FEC454DA6F5FB29 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "3.0.0";
+                            DYLIB_CURRENT_VERSION = "4.0.0";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", msgpack_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "   -fPIC -Wall        -DPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/aka/msgpack-c/Debug/libmsgpack.3.dylib  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "msgpack.4.0.0";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              010D092101A3480C906B4D49 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "3.0.0";
+                            DYLIB_CURRENT_VERSION = "4.0.0";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", msgpack_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall        -DPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/aka/msgpack-c/Release/libmsgpack.3.dylib  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "msgpack.4.0.0";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              D82E3C6AD7774A89949FFED8 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "3.0.0";
+                            DYLIB_CURRENT_VERSION = "4.0.0";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", msgpack_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -fPIC -Wall        -DPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/aka/msgpack-c/MinSizeRel/libmsgpack.3.dylib  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "msgpack.4.0.0";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              41BA40C41CD64D23BF5F57BA /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            DYLIB_COMPATIBILITY_VERSION = "3.0.0";
+                            DYLIB_CURRENT_VERSION = "4.0.0";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".dylib";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", msgpack_EXPORTS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            LIBRARY_STYLE = DYNAMIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -fPIC -Wall        -DPIC  ";
+                            OTHER_LDFLAGS = "  -dynamiclib -Wl,-headerpad_max_install_names -install_name /Users/aka/msgpack-c/RelWithDebInfo/libmsgpack.3.dylib  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = "msgpack.4.0.0";
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CC316E123619421C87C939BC /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "   -Wall         ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = msgpack;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              8A0143F79881460FBD39A798 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -Wall         ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = msgpack;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2059F244ED35484FBD15D921 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "    -DNDEBUG -Wall         ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = msgpack;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              6330EBF7C2F345658208F830 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/aka/msgpack-c/.", "/Users/aka/msgpack-c/include", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = "       -DNDEBUG -Wall         ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = msgpack;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/aka/msgpack-c";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              E7C960C389794093BB8D42F5 /* Build configuration list for PBXProject  "msgpack" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            25D703D8DC1A42E28FD1D5AE /* Debug */,
+                            591064D5FFDA46D79EFFD401 /* Release */,
+                            1274C0837E774719A6EAC193 /* MinSizeRel */,
+                            4E2F1E8CCC494F82AE0164B3 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AA4C056F869C4289B4CD366A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            1C56F654AF56415CBDED167D /* Debug */,
+                            FACBAA8B78BF434A89ED6470 /* Release */,
+                            1DC231D016024B3CBA8628E3 /* MinSizeRel */,
+                            D2791D75CA464FFBAB7FAE79 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2257F2E2D6D944F2980BA41F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            07A7AEBB8FFA4E9E9FB2721D /* Debug */,
+                            9FFA3CAEE5AB4B68AD96FE85 /* Release */,
+                            349D8643B3B145BCAE1BCB9F /* MinSizeRel */,
+                            4415B589C055436D99F25296 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              166C016EE90F4AA2BE10A991 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            38DF8198DA294D91B1B24E91 /* Debug */,
+                            0E9501472E4C4B119D27B3B7 /* Release */,
+                            32F0F8084D3A407CA479577D /* MinSizeRel */,
+                            0A403BFB0D4C475098C64052 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9868D6E4AA684035AEA5B8FD /* Build configuration list for PBXNativeTarget "msgpack" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C83F8FD28FEC454DA6F5FB29 /* Debug */,
+                            010D092101A3480C906B4D49 /* Release */,
+                            D82E3C6AD7774A89949FFED8 /* MinSizeRel */,
+                            41BA40C41CD64D23BF5F57BA /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              01B2EC58D42649DF92A0ED70 /* Build configuration list for PBXNativeTarget "msgpack-static" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CC316E123619421C87C939BC /* Debug */,
+                            8A0143F79881460FBD39A798 /* Release */,
+                            2059F244ED35484FBD15D921 /* MinSizeRel */,
+                            6330EBF7C2F345658208F830 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = DC9F31AF16EC40B58E2B3654;
+}

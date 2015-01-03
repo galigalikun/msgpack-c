@@ -47,3 +47,11 @@ Makefile
 /test/streaming_c
 /test/version
 /test/zone
+
+# cmake
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
